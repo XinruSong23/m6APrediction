@@ -1,0 +1,21 @@
+Package: m6APrediction
+Title: Predict RNA sequences for m6A modification using machine learning
+Version: 1.0.0
+Authors@R: 
+    person("Xinru", "Song", email = "xinru.song23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: The m6APrediction package provides tools to encode RNA sequences and 
+    predict potential m6A modification sites using a trained random forest model. 
+    It includes helper functions for DNA sequence encoding and for predicting 
+    m6A status on single or multiple RNA entries.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5.0),
+    SummarizedExperiment
+Imports: 
+    randomForest,
+    stats,
+    utils
+
